@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@600&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black; }
+
+.App {
+  color: white; }
+
+.header {
+  margin-top: 2%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 5rem; }
+  .header img {
+    width: 12%; }
+  .header .pages {
+    display: flex;
+    align-items: center;
+    gap: 20%; }
+    .header .pages .BurgerMenu {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      cursor: pointer;
+      position: absolute;
+      right: 500px; }
+      .header .pages .BurgerMenu .page {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        background-color: transparent;
+        font-size: 1.5rem;
+        font-family: 'Ibarra Real Nova', serif; }
+      .header .pages .BurgerMenu .page:focus {
+        border-bottom: solid red 3px; }
+    .header .pages .BurgerMenu.on {
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      right: 0;
+      top: 0;
+      background-color: #192227cd;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      transition-duration: 500ms;
+      transition: ease-in-out;
+      z-index: 100; }
+  .header .social {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 50%;
+    gap: 15%; }
+    .header .social a {
+      color: white;
+      font-size: 1.5rem; }
+    .header .social a:hover {
+      transform: scale(1.5); }
+  .header .barButton {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; }
+    .header .barButton .bar {
+      background-color: gray;
+      height: 7px;
+      border-radius: 10px;
+      width: 80%; }
+    .header .barButton .middle.open {
+      display: none; }
+    .header .barButton .top.open {
+      transform: rotateZ(-45deg) translate(-8px, 8px);
+      width: 100%; }
+    .header .barButton .bottom.open {
+      transform: rotateZ(45deg) translate(-8px, -8px);
+      width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

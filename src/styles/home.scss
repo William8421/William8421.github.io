@@ -1,0 +1,93 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    
+    .subHome{
+        // border: solid yellow 1px;
+        background-image: url(../images/IMG_9752-removebg.png);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: 100px 20px;
+        opacity: 0.7;
+    }
+    .info{
+        // border: solid 1px yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        height: 50vh;
+        h2{
+            color: red;
+            font-size: 20px;
+        }
+        a{
+            text-decoration: none;
+            background-color: azure;
+            width: fit-content;
+            border-radius: 6px;
+            padding: 0.5rem;
+            color: red;
+        }
+    }
+    .deskphoto{
+        img{
+            width: 100%;
+        }
+    }
+    
+}
+  
+  .info h1:nth-child(1){
+    font-family: 'Fira Code', monospace;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 290px;
+    animation: type 5s steps(40,end) forwards;
+  }
+
+  .info h2:nth-child(2){
+    font-family: 'Fira Code', monospace;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 290px;
+    animation: type1 5s steps(40,end) forwards;
+    animation-delay: 5s;
+    opacity: 0;
+  }
+ 
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    1%, 99%{
+      border-right: 1px solid orange;
+    }
+    100%{
+      border-right: none;
+    }
+  }
+  @keyframes type1 {
+    0% {
+      width: 0;
+      opacity: 1;
+    }
+    1%, 99%{
+      opacity: 1;
+      border-right: 1px solid orange;
+    }
+    100%{
+      opacity: 1;
+      border-right: none;
+    }
+  }
+
+

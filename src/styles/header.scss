@@ -1,0 +1,108 @@
+.header{
+    // border: solid 1px white;
+    margin-top: 2%;
+    padding: 1%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    z-index: 100;
+    .imgContainer{
+        width: 12%;
+        img{
+            width: 100%;
+        }
+    }
+    button{
+        width: fit-content;
+        border-radius: 6px;
+    }
+    .pages{
+        display: flex;
+        align-items: center;
+        gap: 20%;
+        .BurgerMenu{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            cursor: pointer;
+            position: absolute;
+            right: 5000px;
+            .page{
+                text-decoration: none;
+                color: white;
+                font-weight: 600;
+                background-color: transparent;
+                font-size: 1.5rem;
+                font-family: 'Ibarra Real Nova', serif;
+            }
+            .page:focus {
+                border-bottom: solid red 3px;
+            }
+        }
+        .BurgerMenu.on{
+            flex-direction: column;
+            align-items: center;
+            position: fixed;
+            right: 0;
+            top: 0;
+            background-color: #192227cd;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            transition-duration: 500ms;
+            transition: ease-in-out;
+            z-index: 100;
+        }
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        // border: solid yellow 1px;
+        width: 50%;
+        gap: 15%;
+        a{
+            color: white;
+            font-size: 1.5rem;
+        }
+        a:hover{
+            transform: scale(1.5);
+        }
+    }
+    .barButton{
+        // border: solid yellow 1px;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        // border: solid yellow 1px;
+        .bar{
+            background-color: gray;
+            height: 7px;
+            border-radius: 10px;
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .middle.open{
+            display: none;
+        }
+        .top.open{
+            transform: rotateZ(-45deg) translate(-7px, 8px);
+            width: 100%;
+        }
+        .bottom.open{
+            transform: rotateZ(45deg)  translate(-8.7px, -9.3px);
+            width: 100%;
+        }
+    }
+}
