@@ -1,17 +1,20 @@
-.skills{
-    // border: solid 1px red;
-    margin-top: 20%;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    .skill{
-        background-color: gray;
-        margin: 0.5rem;
-        padding: 0.5rem;
-        border-radius: 6px;
-        box-shadow: 4.9px 9.8px 9.8px rgba(135, 133, 133, 0.35);
-        animation: type duration timing-function delay iteration-count direction fill-mode;
-    }
-}
+    .skills{
+        // height: 16rem;
+        display: flex;
+        align-items: center;
+        border: solid 1px green;
+        // .skill{
+        //     width: fit-content;
+        //     height: fit-content;
+        //     background-color: gray;
+        //     margin: 0.5rem;
+        //     padding: 0.5rem;
+        //     border-radius: 6px;
+        //     text-shadow: -1px 1px 5px red;
+        //     }
+        .logos{
+            background-image: url(../images/IMG_9752-removebg.png);
+            height: 10rem;
+        }
+        }
+   

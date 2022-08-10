@@ -1,5 +1,5 @@
 import React from 'react';
-import Skills from './Skills.js';
+import Gallery from './skills.js';
 import desk from '../images/coding-desk.png'
 
 export default function About() {
@@ -12,7 +12,7 @@ export default function About() {
        I am a fast learner, problem solver and I like building and fixing stuff.  
        </div>
         
-        <Skills/>
+        <Gallery/>
 
       <img src={desk} alt='' />
     </div>

@@ -8,7 +8,7 @@ export default function Home() {
       <div className='subHome'>
         <div className='info'>
         <h1>Hi, I am William Mallak</h1>
-        <h2>Full-stack Web Developer</h2>
+        <h2>Full-Stack Web Developer</h2>
         <a href='#contact'>contact me</a>
         </div>
         </div>
