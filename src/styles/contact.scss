@@ -1,27 +1,30 @@
 .container-contact{
     display: flex;
-    flex-direction: column;
-    .field{
-        width: 98%;
-    }
-    .submit{
-        align-self: center;
-    width: 100%;
-    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 2rem;
-    input{
-        padding: 0.5rem 1.5rem;
-        background-color: transparent;
-        border: silver solid 1px;
-        border-radius: 16px;
-        color: silver;
-        cursor: pointer;
-    }
-    input:hover{
-        background-color: brown;
-    }
+    align-items: center;
+    // border: 1px solid green;
+    height: 85vh;
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        // border: 1px solid yellow;
+
+        .field{
+            width: 100%;
+        }
+        .submit{
+            align-self: center;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+            input{
+                border-radius: 16px;
+                cursor: pointer;
+            }
+        }
     }
 }

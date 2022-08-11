@@ -1,0 +1,55 @@
+@media(min-width: 800px){
+    .header{
+        // border: solid green 1px;
+        .imgContainer{
+            width: 6%;
+        }
+    }
+    .home{
+        align-items: flex-start;
+        padding-top: 10rem;
+        .subHome{
+            // border: solid yellow 1px;
+            width: 100%;
+            background-image: none;
+        }
+        .info{
+            // align-items: center;
+        }
+    }
+    .about{
+        .imgContainer{
+
+            img{
+                display: none;
+            }
+        }
+    }
+    .skills{
+        .logo{
+            // border: solid 1px green;
+            padding: 5% 2%;
+            margin: 0;
+            .skill{
+
+            }
+            img{
+                width: 20%;
+            }
+        }
+    }
+    .projects{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        border: solid 1px green;
+        a{
+
+            img{
+                border: solid 1px green;                
+                width: 260px;
+            }
+        }
+    }
+}

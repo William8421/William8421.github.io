@@ -13,8 +13,6 @@ export default function About() {
        </div>
         
         <Gallery/>
-
-      <img src={desk} alt='' />
     </div>
   )
 }

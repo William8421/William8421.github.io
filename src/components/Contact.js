@@ -9,7 +9,9 @@ export default function Contact() {
         <label htmlFor='Email' >Email</label>
           <input className='field' type='email' placeholder='Email' name='Email' />
         <label htmlFor="message">how can I help you?</label>
-              <textarea required
+              <textarea
+                className='field'
+                required
                 name="message"
                 id="message"
                 cols="40"

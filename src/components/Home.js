@@ -1,5 +1,5 @@
 import React from 'react'
-import deskPhoto from '../images/christopher-gower-m_HRfLhgABo-unsplash.jpg';
+// import deskPhoto from '../images/christopher-gower-m_HRfLhgABo-unsplash.jpg';
 
 export default function Home() {
   
@@ -12,9 +12,9 @@ export default function Home() {
         <a href='#contact'>contact me</a>
         </div>
         </div>
-        <div className='deskphoto'>
+        {/* <div className='deskphoto'>
         <img src={deskPhoto} alt='myphoto' />
-        </div>
+        </div> */}
     </div>
   )
 }
