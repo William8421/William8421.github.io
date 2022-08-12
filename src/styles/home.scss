@@ -1,15 +1,17 @@
 .home{
     display: flex;
     flex-direction: column;
+    padding-top: 8rem;
     // border: solid yellow 1px;
     
     .subHome{
         // border: solid yellow 1px;
-        // background-image: url(../images/IMG_9752-removebg.png);
-        // background-size: 90%;
-        // background-repeat: no-repeat;
-        // background-position: 100px 20px;
-        // opacity: 0.7;
+        height: 30rem;
+        background-image: url(../images/IMG_9752-removebg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 70px 20px;
+        opacity: 0.5;
     }
     .info{
         // border: solid 1px yellow;
@@ -17,7 +19,7 @@
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
-        height: 50vh;
+        // height: 50vh;
         h2{
             color: red;
             font-size: 20px;
@@ -48,7 +50,7 @@
     white-space: nowrap;
     overflow: hidden;
     width: 290px;
-    animation: type 5s steps(40,end) forwards;
+    animation: type 3s steps(40,end) forwards;
   }
 
   .info h2:nth-child(2){
@@ -60,8 +62,8 @@
     white-space: nowrap;
     overflow: hidden;
     width: 290px;
-    animation: type1 5s steps(40,end) forwards;
-    animation-delay: 5s;
+    animation: type1 3s steps(40,end) forwards;
+    animation-delay: 3s;
     opacity: 0;
   }
  

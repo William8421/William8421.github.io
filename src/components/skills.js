@@ -61,7 +61,6 @@ const Gallery = () => {
           disableDotsControls
           animationDuration={2000}
           infinite
-          paddingLeft={60}
           items={items}
           />
       </div>
