@@ -1,8 +1,8 @@
 .header{
     // border: solid 1px white;
-    margin-top: 2%;
+    // margin-top: 2%;
     padding: 1%;
-    position: sticky;
+    position: fixed;
     top: 0;
     display: flex;
     justify-content: space-around;
@@ -26,6 +26,7 @@
         align-items: center;
         gap: 20%;
         .BurgerMenu{
+            border: solid blue 1px;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
@@ -41,9 +42,6 @@
                 font-size: 1.5rem;
                 font-family: 'Ibarra Real Nova', serif;
             }
-            .page:focus {
-                border-bottom: solid red 3px;
-            }
         }
         .BurgerMenu.on{
             flex-direction: column;
@@ -58,6 +56,9 @@
             transition-duration: 500ms;
             transition: ease-in-out;
         }
+    }
+    .pages-desktop{
+        display: none;
     }
     .social{
         display: flex;

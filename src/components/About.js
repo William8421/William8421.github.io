@@ -1,6 +1,5 @@
 import React from 'react';
-import Gallery from './skills.js';
-import desk from '../images/coding-desk.png'
+import Skills from './Skills.js';
 
 export default function About() {
   return (
@@ -12,7 +11,7 @@ export default function About() {
        I am a fast learner, problem solver and I like building and fixing stuff.  
        </div>
         
-        <Gallery/>
+        <Skills/>
     </div>
   )
 }

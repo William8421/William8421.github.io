@@ -42,28 +42,21 @@ const items = [
     <div className='logo'>
     <img src={ES6Logo} alt='logo' />
     <div className='skill' >ES6</div>
-    </div>,
-    // <div className='skill' >HTML/CSS</div>,
-    // <div className='skill' >Javascript</div>,
-    // <div className='skill' >React</div>,
-    // <div className='skill' >Node.js</div>,
-    // <div className='skill' >Express</div>,
-    // <div className='skill' >MongDB</div>,
-    // <div className='skill' >ES6</div>
+    </div>
 ];
 
-const Gallery = () => {
+const Skills = () => {
   return (
       <div className='skills' >
           <AliceCarousel
           autoPlay
           disableButtonsControls
           disableDotsControls
-          animationDuration={2000}
+          animationDuration={1000}
           infinite
           items={items}
           />
       </div>
   );
 }
-export default Gallery;
+export default Skills;
