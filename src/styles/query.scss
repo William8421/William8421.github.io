@@ -1,116 +1,216 @@
-@media (min-width: 599px) and (min-height: 332px){
-    .header{
-        // border: yellow 1px solid;
-        width: 100%;
-        .imgContainer{
-            width: 8%;
-            img{
-
-            }
+@media(min-width: 800px) and (max-height: 331px) {
+    .header {
+        .imgContainer {
+            width: 6%;
         }
-        .pages{
+
+        .pages {
             display: none;
         }
-        .pages-desktop{
-            margin-left: 10%;
+
+        .pages-desktop {
             display: flex;
             gap: 10%;
-            width: 60%;
-            // border: solid blue 1px;
-            .page-desktop{
+
+            .page-desktop {
                 text-decoration: none;
                 color: white;
             }
         }
-        .barButton{
+
+        .social {
+            width: 20%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .barButton {
             display: none;
         }
     }
-    .home{
-        // border: solid 1px red;
-        .subHome{
-            background-position: 100% -20px;
-            background-size: 50%;
-        }
-        .info{
 
+    .home {
+        .info {
+            margin-left: 5%;
+        }
+
+        .subHome {
+            width: 100%;
+            background-position: 100% -60px;
+            background-size: contain;
+            position: absolute;
         }
     }
-    .about{
-        // border: solid green 1px;
 
+    .about {
+        margin-top: 12rem;
     }
-    .skills{
 
-        .logo{
+    .skills {
+        .carousel {
+            .logo {
+                width: 20%;
+                padding: 0;
+                margin: 5% 0;
+                margin-left: 40%;
 
-            img{
-                width: 40%;
+                img {
+                    width: 100%;
+                }
             }
         }
     }
-    .projects{
+
+    .projects {
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
-        // border: solid 1px green;
-        .projects-container{
-            flex-direction: row;
-            a{
-                
-                img{
-                    // border: solid 1px green;                
+
+        .projects-container {
+            flex-wrap: nowrap;
+
+            a {
+                img {
                     width: 160px;
                 }
             }
         }
     }
 
-}
-@media(min-width: 800px) and (max-height: 331px){
-    .header{
-        // border: solid green 1px;
-        .imgContainer{
-            width: 6%;
+    .container-contact {
+        margin-top: 10%;
+
+        form {
+            width: 70%;
         }
-        .pages{
+    }
+}
+
+@media (min-width: 599px) and (min-height: 332px) {
+    .header {
+        width: 100%;
+
+        .imgContainer {
+            width: 8%;
+            margin-left: 5%;
+        }
+
+        .pages {
             display: none;
         }
-        .pages-desktop{
+
+        .pages-desktop {
+            margin-left: 10%;
             display: flex;
             gap: 10%;
-            .page-desktop{
+            width: 60%;
+
+            .page-desktop {
                 text-decoration: none;
                 color: white;
             }
         }
-        .barButton{
+
+        .barButton {
             display: none;
         }
     }
-    .home{
-        align-items: flex-start;
-        padding-top: 5rem;
-        .subHome{
-            // border: solid green 1px;
-            width: 100%;
-            background-position: 100% -60px;
-            background-size: contain;
+
+    .home {
+        padding-top: 15rem;
+
+        .info {
+            margin-top: 10%;
         }
+
+        .subHome {
+            background-position: 100% -20px;
+            background-size: 80%;
+            // border: solid 1px red;
+            height: 50rem;
+            width: 105%;
+        }
+    }
+
+    .about {
+    }
+
+    .skills {
+        .logo {
+            img {
+                width: 40%;
+            }
+        }
+    }
+
+    .projects {
+        .projects-container {
+            // border: solid 1px green;
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            a {
+                img {
+                    // border: solid 1px green;                
+                    width: 250px;
+                }
+                .projectDescription{
+                    visibility: hidden;
+                }
+            }
+            a:hover .projectDescription{
+                // background-color: green;
+                visibility: visible;
+                transition-duration: 10s;
+            }
+        }
+    }
+    .container-contact{
+        form{
+            width: 60%;
+        }
+    }
+}
+
+@media(min-width: 800px) and (min-height: 332px){
+    .header{
+        .imgContainer {
+            width: 4%;
+            margin-left: 0;
+        }
+        .social{
+            width: 20%;
+        }
+    }
+    .home{
         .info{
             // align-items: center;
         }
+        .subHome{
+            position: absolute;
+            background-position: bottom right;
+            background-size: contain;
+        }
     }
     .about{
-        text-align: center;
+        margin-top: 30rem;
+        padding-top: 5rem;
+        width: 50%;
+        margin-bottom: 5rem;
+        .skills{
+            .carousel{
+                .logo{
+                    padding: 0;
+                }
+            }
+        }
+
     }
-    .skills{
+    .carousel{
         .logo{
-            // border: solid 1px green;
-            padding: 5% 2%;
-            margin: 0;
+            width: 70%;
+            margin-left: 15%;
             .skill{
-                
             }
             img{
                 width: 10%;
@@ -118,25 +218,10 @@
         }
     }
     .projects{
-        flex-direction: column;
-        justify-content: center;
-        gap: 2rem;
-        .projects-container{
-            flex-wrap: nowrap;
-            // border: solid 1px green;
-            a{
-                img{
-                    // border: solid 1px green;                
-                    width: 160px;
-                }
-            }
-        }
+        margin-bottom: 10rem;
     }
-}
-@media(min-width: 800px) and (min-height: 332px){
-    .home{
-        .info{
-            align-items: center;
-        }
+
+    .container-contact{
+        margin-bottom: 40rem;
     }
 }

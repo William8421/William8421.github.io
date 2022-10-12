@@ -48,6 +48,7 @@ const items = [
 const Skills = () => {
   return (
       <div className='skills' >
+          <div className='carousel' >
           <AliceCarousel
           autoPlay
           disableButtonsControls
@@ -56,6 +57,7 @@ const Skills = () => {
           infinite
           items={items}
           />
+          </div>
       </div>
   );
 }

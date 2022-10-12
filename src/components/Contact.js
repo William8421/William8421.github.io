@@ -19,8 +19,8 @@ export default function Contact() {
                 placeholder="Please enter your message"
               ></textarea>
               <div className="submit">
-              <input type="submit" value="send" />
-              <input type="reset" value="reset" />
+              <input type="submit" value="send"/>
+              <input type="reset" value="reset" className='resetBtn' />
             </div>
       </form>
     </div>

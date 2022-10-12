@@ -12,6 +12,7 @@
 
         .field{
             width: 100%;
+            border-radius: 6px;
         }
         .submit{
             align-self: center;
@@ -22,8 +23,13 @@
             gap: 2rem;
             margin-top: 2rem;
             input{
-                border-radius: 16px;
+                border-radius: 6px;
                 cursor: pointer;
+                border: none;
+            }
+            .resetBtn{
+                background-color: red;
+                color: white;
             }
         }
     }
