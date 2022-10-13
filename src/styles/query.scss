@@ -187,8 +187,10 @@
             // align-items: center;
         }
         .subHome{
+            // border: solid red 1px;
+            width: 100%;
             position: absolute;
-            background-position: bottom right;
+            background-position: top right;
             background-size: contain;
         }
     }
