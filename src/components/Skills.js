@@ -15,22 +15,24 @@ import TypescriptLogo from '../images/skills-logos/ts-logo-512.png';
 import GraphQlLogo from '../images/skills-logos/GraphQLLogo1.png';
 
 const logos = [
-  htmlLogo,
-  cssLogo,
-  javascriptLogo,
-  reactLogo,
-  nodeJsLogo,
-  expressLogo,
-  mongoDBLogo,
-  ES6Logo,
-  TypescriptLogo,
-  GraphQlLogo,
+  { img: htmlLogo, name: 'HTML' },
+  { img: cssLogo, name: 'CSS' },
+  { img: javascriptLogo, name: 'JavaScript' },
+  { img: reactLogo, name: 'React' },
+  { img: nodeJsLogo, name: 'Node.js' },
+  { img: expressLogo, name: 'Express.js' },
+  { img: mongoDBLogo, name: 'MongoDB' },
+  { img: ES6Logo, name: 'ES6' },
+  { img: TypescriptLogo, name: 'TypeScript' },
+  { img: GraphQlLogo, name: 'GraphQl' },
 ];
+
 const items = logos.map((item) => {
   return (
     <div className="logo">
-      <img src={item} alt="logo" />
-      <div className="skill">ES6</div>
+      <img src={item.img} alt="logo" />
+
+      <div className="skill">{item.name}</div>
     </div>
   );
 });
