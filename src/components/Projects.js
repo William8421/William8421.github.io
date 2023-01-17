@@ -1,5 +1,6 @@
-import project1 from "../images/image.jpg";
-import project2 from "../images/finalProject.png";
+import project1 from '../images/image.jpg';
+import project2 from '../images/finalProject.png';
+import project3 from '../images/graphql-project.png';
 
 export default function Projects() {
   return (
@@ -15,7 +16,19 @@ export default function Projects() {
           <div className="projectname">MOVIE APP</div>
           <p className="projectDescription">
             A fully functional web app providing information about movies from
-            OMDB/TMDB API.{" "}
+            OMDB/TMDB APIs.{' '}
+          </p>
+        </a>
+        <a
+          href="https://github.com/William8421/MusicBandsGraphQl"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={project3} alt="project" />
+          <div className="projectname"> Playlist App </div>
+          <p className="projectDescription">
+            An app created with GraphQL to add songs and singers/bands to the
+            music playlist. listening to the songs will be added soon{' '}
           </p>
         </a>
         <a
@@ -32,7 +45,6 @@ export default function Projects() {
             by connecting to wall-box owners in their surroundings.
           </p>
         </a>
-        {/* <a href='https://inspiring-zabaione-8b997a.netlify.app/' target='_blank' rel="noreferrer" ><img src={project1} alt='project' /><div className='projectname'> Signup/Signin App </div></a>    */}
       </div>
     </div>
   );
