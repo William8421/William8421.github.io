@@ -8,7 +8,7 @@ export default function Projects() {
       <h1>Personal Projects</h1>
       <div className="projects-container">
         <a
-          href="https://inspiring-zabaione-8b997a.netlify.app/"
+          href="https://w-mallak-movieapp.netlify.app"
           target="_blank"
           rel="noreferrer"
         >
