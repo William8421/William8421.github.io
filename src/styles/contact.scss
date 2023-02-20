@@ -1,20 +1,19 @@
-.container-contact{
+.contact-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    // border: 1px solid green;
     height: 85vh;
-    form{
+
+    form {
         display: flex;
         flex-direction: column;
-        width: 90%;
-        // border: 1px solid yellow;
 
-        .field{
+        .field {
             width: 100%;
             border-radius: 6px;
         }
-        .submit{
+
+        .submit {
             align-self: center;
             width: 100%;
             display: flex;
@@ -22,16 +21,19 @@
             flex-wrap: wrap;
             gap: 2rem;
             margin-top: 2rem;
-            input{
+
+            input {
                 border-radius: 6px;
                 cursor: pointer;
                 border: none;
             }
-            .sendBtn{
+
+            .send-btn {
                 background-color: #3d91bf;
                 color: white;
             }
-            .resetBtn{
+
+            .reset-btn {
                 background-color: red;
                 color: white;
             }

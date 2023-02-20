@@ -1,4 +1,4 @@
-import project1 from '../images/image.jpg';
+import project1 from '../images/MovieApp.jpg';
 import project2 from '../images/finalProject.png';
 import project3 from '../images/graphql-project.png';
 
@@ -13,8 +13,8 @@ export default function Projects() {
           rel="noreferrer"
         >
           <img src={project1} alt="project" />
-          <div className="projectname">MOVIE APP</div>
-          <p className="projectDescription">
+          <div className="project-name">MOVIE APP</div>
+          <p className="project-description">
             A fully functional web app providing information about movies from
             OMDB/TMDB APIs.{' '}
           </p>
@@ -25,22 +25,22 @@ export default function Projects() {
           rel="noreferrer"
         >
           <img src={project3} alt="project" />
-          <div className="projectname"> Playlist App </div>
-          <p className="projectDescription">
+          <div className="project-name"> Playlist App </div>
+          <p className="project-description">
             An app created with GraphQL to add songs and singers/bands to the
             music playlist. listening to the songs will be added soon{' '}
           </p>
         </a>
         <a
-          href="https://evconnection.herokuapp.com/"
+          href="https://github.com/William8421/EV-Connection/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={project2} alt="project" />
-          <div className="projectname">
+          <div className="project-name">
             EV-<span>C</span>ONNECTION
           </div>
-          <p className="projectDescription">
+          <p className="project-description">
             An App, where EV drivers can charge their electrical vehicles just
             by connecting to wall-box owners in their surroundings.
           </p>

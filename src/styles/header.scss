@@ -1,4 +1,4 @@
-.header{
+.header {
     position: fixed;
     top: 0;
     display: flex;
@@ -8,22 +8,21 @@
     height: 5rem;
     background-color: rgb(41, 37, 37);
     z-index: 1;
-    .imgContainer{
+
+    .img-container {
         width: 12%;
-        img{
+
+        img {
             width: 100%;
         }
     }
-    // button{
-    //     width: fit-content;
-    //     border-radius: 6px;
-    // }
-    .pages{
+
+    .pages {
         display: flex;
         align-items: center;
         gap: 20%;
-        .BurgerMenu{
-            border: solid blue 1px;
+
+        .burger-menu {
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
@@ -31,7 +30,8 @@
             cursor: pointer;
             position: absolute;
             right: 5000px;
-            .page{
+
+            .page {
                 text-decoration: none;
                 color: white;
                 font-weight: 600;
@@ -40,7 +40,8 @@
                 font-family: 'Ibarra Real Nova', serif;
             }
         }
-        .BurgerMenu.on{
+
+        .burger-menu.on {
             flex-direction: column;
             align-items: center;
             position: fixed;
@@ -54,34 +55,37 @@
             transition: ease-in-out;
         }
     }
-    .pages-desktop{
+
+    .pages-desktop {
         display: none;
     }
-    .social{
+
+    .social {
         display: flex;
         justify-content: center;
         text-decoration: none;
-        // border: solid yellow 1px;
         width: 50%;
         gap: 15%;
-        a{
+
+        a {
             color: white;
             font-size: 1.5rem;
         }
-        a:hover{
+
+        a:hover {
             transform: scale(1.5);
         }
     }
-    .barButton{
-        // border: solid yellow 1px;
+
+    .bar-button {
         width: 2.5rem;
         height: 2.5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        // border: solid yellow 1px;
-        .bar{
+
+        .bar {
             background-color: gray;
             height: 5px;
             border-radius: 10px;
@@ -90,16 +94,19 @@
             justify-content: center;
             align-items: center;
         }
-        .middle.open{
+
+        .middle.open {
             display: none;
         }
-        .top.open{
+
+        .top.open {
             transform: rotateZ(-45deg) translate(-7px, 7px);
             width: 100%;
             opacity: 0.5;
         }
-        .bottom.open{
-            transform: rotateZ(45deg)  translate(-6.5px, -6.5px);
+
+        .bottom.open {
+            transform: rotateZ(45deg) translate(-6.5px, -6.5px);
             width: 100%;
             opacity: 0.5;
         }

@@ -29,25 +29,20 @@ body.light {
   width: 100%;
   height: 5rem;
   background-color: rgb(41, 37, 37);
-  z-index: 100;
+  z-index: 1;
 }
-.header .imgContainer {
+.header .img-container {
   width: 12%;
 }
-.header .imgContainer img {
+.header .img-container img {
   width: 100%;
-}
-.header button {
-  width: fit-content;
-  border-radius: 6px;
 }
 .header .pages {
   display: flex;
   align-items: center;
   gap: 20%;
 }
-.header .pages .BurgerMenu {
-  border: solid blue 1px;
+.header .pages .burger-menu {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -56,7 +51,7 @@ body.light {
   position: absolute;
   right: 5000px;
 }
-.header .pages .BurgerMenu .page {
+.header .pages .burger-menu .page {
   text-decoration: none;
   color: white;
   font-weight: 600;
@@ -64,7 +59,7 @@ body.light {
   font-size: 1.5rem;
   font-family: "Ibarra Real Nova", serif;
 }
-.header .pages .BurgerMenu.on {
+.header .pages .burger-menu.on {
   flex-direction: column;
   align-items: center;
   position: fixed;
@@ -94,7 +89,7 @@ body.light {
 .header .social a:hover {
   transform: scale(1.5);
 }
-.header .barButton {
+.header .bar-button {
   width: 2.5rem;
   height: 2.5rem;
   display: flex;
@@ -102,7 +97,7 @@ body.light {
   align-items: center;
   justify-content: space-around;
 }
-.header .barButton .bar {
+.header .bar-button .bar {
   background-color: gray;
   height: 5px;
   border-radius: 10px;
@@ -111,15 +106,15 @@ body.light {
   justify-content: center;
   align-items: center;
 }
-.header .barButton .middle.open {
+.header .bar-button .middle.open {
   display: none;
 }
-.header .barButton .top.open {
+.header .bar-button .top.open {
   transform: rotateZ(-45deg) translate(-7px, 7px);
   width: 100%;
   opacity: 0.5;
 }
-.header .barButton .bottom.open {
+.header .bar-button .bottom.open {
   transform: rotateZ(45deg) translate(-6.5px, -6.5px);
   width: 100%;
   opacity: 0.5;
@@ -149,16 +144,13 @@ body.light {
   padding: 0.5rem;
   color: red;
 }
-.home .subHome {
+.home .sub-home {
   height: 27rem;
   background-image: url(../images/IMG_9752-removebg.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 100% 20px;
   opacity: 0.7;
-}
-.home .deskphoto img {
-  width: 100%;
 }
 
 .info h1:nth-child(1) {
@@ -259,41 +251,50 @@ body.light {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  gap: 5%;
   flex-wrap: wrap;
 }
 .projects .projects-container a {
   text-decoration: none;
-  color: white;
   text-align: center;
+}
+.projects .projects-container a span {
+  color: #FFA822;
+}
+.projects .projects-container a .project-description {
+  width: 15rem;
+  padding-top: 3%;
+  margin: 0 auto;
+  color: white;
+  text-shadow: -5px 5px 4px rgba(255, 255, 255, 0.88);
 }
 .projects img {
   width: 45%;
-  margin: 10%;
+  margin: 10% 0;
   border-radius: 2%;
   -webkit-box-shadow: -10px 10px 15px -1px rgba(255, 255, 255, 0.83);
   box-shadow: -10px 10px 15px -1px rgba(255, 255, 255, 0.83);
 }
-.projects .projectname {
-  color: red;
+.projects .project-name {
+  color: white;
   text-shadow: -5px 5px 4px rgba(255, 255, 255, 0.88);
+  text-align: center;
 }
 
-.container-contact {
+.contact-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 85vh;
 }
-.container-contact form {
+.contact-container form {
   display: flex;
   flex-direction: column;
-  width: 90%;
 }
-.container-contact form .field {
+.contact-container form .field {
   width: 100%;
+  border-radius: 6px;
 }
-.container-contact form .submit {
+.contact-container form .submit {
   align-self: center;
   width: 100%;
   display: flex;
@@ -302,18 +303,22 @@ body.light {
   gap: 2rem;
   margin-top: 2rem;
 }
-.container-contact form .submit input {
+.contact-container form .submit input {
   border-radius: 6px;
   cursor: pointer;
   border: none;
 }
-.container-contact form .submit .resetBtn {
+.contact-container form .submit .send-btn {
+  background-color: #3d91bf;
+  color: white;
+}
+.contact-container form .submit .reset-btn {
   background-color: red;
   color: white;
 }
 
 @media (min-width: 800px) and (max-height: 331px) {
-  .header .imgContainer {
+  .header .img-container {
     width: 6%;
   }
   .header .pages {
@@ -332,13 +337,13 @@ body.light {
     display: flex;
     justify-content: space-around;
   }
-  .header .barButton {
+  .header .bar-button {
     display: none;
   }
   .home .info {
     margin-left: 5%;
   }
-  .home .subHome {
+  .home .sub-home {
     width: 100%;
     background-position: 100% -60px;
     background-size: contain;
@@ -367,10 +372,10 @@ body.light {
   .projects .projects-container a img {
     width: 160px;
   }
-  .container-contact {
+  .contact-container {
     margin-top: 10%;
   }
-  .container-contact form {
+  .contact-container form {
     width: 70%;
   }
 }
@@ -378,7 +383,7 @@ body.light {
   .header {
     width: 100%;
   }
-  .header .imgContainer {
+  .header .img-container {
     width: 8%;
     margin-left: 5%;
   }
@@ -395,7 +400,7 @@ body.light {
     text-decoration: none;
     color: white;
   }
-  .header .barButton {
+  .header .bar-button {
     display: none;
   }
   .home {
@@ -404,7 +409,7 @@ body.light {
   .home .info {
     margin-top: 10%;
   }
-  .home .subHome {
+  .home .sub-home {
     background-position: 100% -20px;
     background-size: 80%;
     height: 50rem;
@@ -421,20 +426,35 @@ body.light {
   .projects .projects-container a img {
     width: 250px;
   }
-  .container-contact form {
-    width: 60%;
+  .projects .projects-container a .project-description {
+    visibility: hidden;
+  }
+  .projects .projects-container a:hover .project-description {
+    visibility: visible;
+    transition-duration: 10s;
+  }
+  .contact-container form {
+    width: 40%;
   }
 }
 @media (min-width: 800px) and (min-height: 332px) {
-  .header .imgContainer {
+  .header .img-container {
     width: 4%;
+    margin-left: 0;
   }
   .header .social {
     width: 20%;
   }
-  .home .subHome {
+  .home {
+    padding-top: 0;
+  }
+  .home a {
+    z-index: 10;
+  }
+  .home .sub-home {
+    width: 100%;
     position: absolute;
-    background-position: bottom right;
+    background-position: top right;
     background-size: contain;
   }
   .about {
@@ -456,11 +476,19 @@ body.light {
   .projects {
     margin-bottom: 10rem;
   }
-  .projects .projects-container {
-    margin-top: 10rem;
-  }
-  .container-contact {
+  .contact-container {
     margin-bottom: 40rem;
+  }
+}
+@media (min-width: 800px) and (min-height: 851px) {
+  .home {
+    padding-top: 13rem;
+  }
+  .projects {
+    padding-top: 10rem;
+  }
+  .projects .projects-container {
+    padding-top: 10rem;
   }
 }
 
