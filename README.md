@@ -1,3 +1,3 @@
 # portfolio
 
-https://wmallak-portfolio.herokuapp.com/
+https://william-mallak-portfolio.netlify.app/
