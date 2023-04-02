@@ -1,3 +1,4 @@
+import React from 'react'
 import project1 from '../images/MovieApp.jpg';
 import project2 from '../images/finalProject.png';
 import project3 from '../images/graphql-project.png';
