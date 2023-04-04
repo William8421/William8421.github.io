@@ -25,7 +25,7 @@ export default function Projects() {
         </div>
         <div className='project'>
         <a
-          href="https://github.com/William8421/EV-Connection/"
+          href="https://evconnection.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
@@ -56,7 +56,7 @@ export default function Projects() {
         </div>
         <div className='project'>
         <a
-          href="https://github.com/William8421/MusicBandsGraphQl"
+          href="https://graphql-music-band-app.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
