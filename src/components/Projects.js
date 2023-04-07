@@ -1,7 +1,7 @@
 import React from 'react'
 import project1 from '../images/MovieApp.jpg';
 import project2 from '../images/finalProject.png';
-import project3 from '../images/new-graphql-project.png';
+import project3 from '../images/graphql-project.png';
 import project4 from '../images/typescript-react-shopppingApp.png';
 
 export default function Projects() {
