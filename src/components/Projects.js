@@ -41,7 +41,7 @@ export default function Projects() {
         </div>
         <div className='project'>
         <a
-          href="https://shopping-app-typescript.netlify.app/"
+          href="https://shopping-app-typescript.netlify.app/store"
           target="_blank"
           rel="noreferrer"
         >
@@ -50,7 +50,7 @@ export default function Projects() {
            SHOPPING-CART APP
           </div>
           <p className="project-description">
-            A frontend typescript-react app to add or remove shopping items to/from the cart
+            A fullstack e-commerce app created with typescript-react 
           </p>
         </a>
         </div>
