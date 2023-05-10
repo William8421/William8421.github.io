@@ -56,7 +56,7 @@ export default function Projects() {
         </div>
         <div className='project'>
         <a
-          href="https://graphql-music-band-app.netlify.app/"
+          href="https://github.com/William8421/MusicBandsGraphQl"
           target="_blank"
           rel="noreferrer"
         >
