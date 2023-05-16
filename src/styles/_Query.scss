@@ -62,12 +62,7 @@
         gap: 2rem;
 
         .projects-container {
-            flex-wrap: wrap;
-            a {
-                img {
-                    width: 160px;
-                }
-            }
+            flex-wrap: wrap;            
         }
     }
 
@@ -139,21 +134,26 @@
             gap: 3rem;
             flex-direction: row;
             flex-wrap: wrap;
+            .project{
+                a {
+                    img {
+                        width: 250px;
+                        height: 250px;
+                    }
 
-            a {
-                img {
-                    width: 250px;
+                    .project-description {
+                        visibility: hidden;
+                    }
                 }
 
-                .project-description {
-                    visibility: hidden;
+                a:hover .project-description {
+                    visibility: visible;
+                }
+                .github-link{
+                    margin-top: 2rem;
                 }
             }
-
-            a:hover .project-description {
-                visibility: visible;
-                transition-duration: 10s;
-            }
+            
         }
     }
 

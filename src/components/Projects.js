@@ -22,6 +22,7 @@ export default function Projects() {
             OMDB/TMDB APIs.{' '}
           </p>
         </a>
+        <a className='github-link' target='_blank' rel='noreferrer' href='https://github.com/William8421/movieapp'>Github</a>
         </div>
         <div className='project'>
         <a
@@ -38,6 +39,7 @@ export default function Projects() {
             by connecting to wall-box owners in their surroundings.
           </p>
         </a>
+        <a className='github-link' target='_blank' rel='noreferrer' href='https://github.com/William8421/EV-Connection'>Github</a>
         </div>
         <div className='project'>
         <a
@@ -53,6 +55,7 @@ export default function Projects() {
             A fullstack e-commerce app created with typescript-react 
           </p>
         </a>
+        <a className='github-link' target='_blank' rel='noreferrer' href='https://github.com/William8421/typescript-shopping-app'>Github</a>
         </div>
         <div className='project'>
         <a
@@ -64,9 +67,10 @@ export default function Projects() {
           <div className="project-name"> PLAYLIST APP </div>
           <p className="project-description">
             A fullstack app created with GraphQL-React to add songs and singers/bands to the
-            music playlist. listening to the songs will be added soon{' '}
+            music playlist.
           </p>
         </a>
+        <a className='github-link' target='_blank' rel='noreferrer' href='https://github.com/William8421/MusicBandsGraphQl'>Github</a>
         </div>
       </div>
     </div>

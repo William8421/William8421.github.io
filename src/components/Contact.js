@@ -28,7 +28,7 @@ export default function Contact() {
           rows="3"
           placeholder="Please enter your message"
         ></textarea>
-        <div className="submit">
+        <div className="contact-buttons-container">
           <input type="submit" value="send" className="send-btn" />
           <input type="reset" value="reset" className="reset-btn" />
         </div>
