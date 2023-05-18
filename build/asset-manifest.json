@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/%7Bportfolio%7D/static/css/main.939ea2f7.css",
-    "main.js": "/%7Bportfolio%7D/static/js/main.61d12697.js",
-    "static/media/IMG_9752-removebg.png": "/%7Bportfolio%7D/static/media/IMG_9752-removebg.b02e395a54a783acdef2.png",
-    "static/media/finalProject.png": "/%7Bportfolio%7D/static/media/finalProject.e2f10f49115712ac275d.png",
-    "static/media/background-body.jpg": "/%7Bportfolio%7D/static/media/background-body.e1e3477037d867bb3c76.jpg",
-    "static/media/graphql-project.png": "/%7Bportfolio%7D/static/media/graphql-project.402fdc1fe3c96ee86305.png",
-    "static/media/MovieApp.jpg": "/%7Bportfolio%7D/static/media/MovieApp.4b91b3bf96ba48763ba2.jpg",
-    "static/media/typescript-react-shopppingApp.png": "/%7Bportfolio%7D/static/media/typescript-react-shopppingApp.9c142c9f8639bd9961ed.png",
-    "static/media/nodejs.png": "/%7Bportfolio%7D/static/media/nodejs.8e4e6c2d64f7cf1c713a.png",
-    "static/media/css.png": "/%7Bportfolio%7D/static/media/css.e57d30c67278c4e867fb.png",
-    "static/media/react.png": "/%7Bportfolio%7D/static/media/react.b83438451ffa5c036357.png",
-    "static/media/es6.png": "/%7Bportfolio%7D/static/media/es6.a5e4be6553b154b2bab6.png",
-    "static/media/html.png": "/%7Bportfolio%7D/static/media/html.31aa9a0c06fb2633918d.png",
-    "static/media/javascript.png": "/%7Bportfolio%7D/static/media/javascript.e4eee92dea7e8d672897.png",
-    "static/media/mongodb.png": "/%7Bportfolio%7D/static/media/mongodb.140622dc73847448cac0.png",
-    "static/media/express.png": "/%7Bportfolio%7D/static/media/express.b0a18b6a39e9676a6657.png",
-    "static/media/empty-logo.png": "/%7Bportfolio%7D/static/media/empty-logo.8f8d3cd30336e563e3ba.png",
-    "static/media/GraphQLLogo1.png": "/%7Bportfolio%7D/static/media/GraphQLLogo1.4682f3ff229e4dc27088.png",
-    "index.html": "/%7Bportfolio%7D/index.html",
-    "main.939ea2f7.css.map": "/%7Bportfolio%7D/static/css/main.939ea2f7.css.map",
-    "main.61d12697.js.map": "/%7Bportfolio%7D/static/js/main.61d12697.js.map"
+    "main.css": "/portfolio/static/css/main.d9f49bf1.css",
+    "main.js": "/portfolio/static/js/main.28d73935.js",
+    "static/media/IMG_9752-removebg.png": "/portfolio/static/media/IMG_9752-removebg.b02e395a54a783acdef2.png",
+    "static/media/finalProject.png": "/portfolio/static/media/finalProject.e2f10f49115712ac275d.png",
+    "static/media/background-body.jpg": "/portfolio/static/media/background-body.e1e3477037d867bb3c76.jpg",
+    "static/media/graphql-project.png": "/portfolio/static/media/graphql-project.402fdc1fe3c96ee86305.png",
+    "static/media/MovieApp.jpg": "/portfolio/static/media/MovieApp.4b91b3bf96ba48763ba2.jpg",
+    "static/media/typescript-react-shopppingApp.png": "/portfolio/static/media/typescript-react-shopppingApp.9c142c9f8639bd9961ed.png",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.8e4e6c2d64f7cf1c713a.png",
+    "static/media/css.png": "/portfolio/static/media/css.e57d30c67278c4e867fb.png",
+    "static/media/react.png": "/portfolio/static/media/react.b83438451ffa5c036357.png",
+    "static/media/es6.png": "/portfolio/static/media/es6.a5e4be6553b154b2bab6.png",
+    "static/media/html.png": "/portfolio/static/media/html.31aa9a0c06fb2633918d.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.e4eee92dea7e8d672897.png",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.140622dc73847448cac0.png",
+    "static/media/express.png": "/portfolio/static/media/express.b0a18b6a39e9676a6657.png",
+    "static/media/empty-logo.png": "/portfolio/static/media/empty-logo.8f8d3cd30336e563e3ba.png",
+    "static/media/GraphQLLogo1.png": "/portfolio/static/media/GraphQLLogo1.4682f3ff229e4dc27088.png",
+    "index.html": "/portfolio/index.html",
+    "main.d9f49bf1.css.map": "/portfolio/static/css/main.d9f49bf1.css.map",
+    "main.28d73935.js.map": "/portfolio/static/js/main.28d73935.js.map"
   },
   "entrypoints": [
-    "static/css/main.939ea2f7.css",
-    "static/js/main.61d12697.js"
+    "static/css/main.d9f49bf1.css",
+    "static/js/main.28d73935.js"
   ]
 }
