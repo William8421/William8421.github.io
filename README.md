@@ -1,3 +1,1 @@
-# portfolio
-
-https://william-mallak-portfolio.netlify.app/
+www.williammallak.info

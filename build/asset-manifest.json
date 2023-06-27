@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/william8421.github.io/static/css/main.a289db57.css",
+    "main.js": "/william8421.github.io/static/js/main.84f0024c.js",
+    "static/media/IMG_9752-removebg.png": "/william8421.github.io/static/media/IMG_9752-removebg.b02e395a54a783acdef2.png",
+    "static/media/finalProject.png": "/william8421.github.io/static/media/finalProject.e2f10f49115712ac275d.png",
+    "static/media/background-body.jpg": "/william8421.github.io/static/media/background-body.e1e3477037d867bb3c76.jpg",
+    "static/media/graphql-project.png": "/william8421.github.io/static/media/graphql-project.402fdc1fe3c96ee86305.png",
+    "static/media/MovieApp.jpg": "/william8421.github.io/static/media/MovieApp.4b91b3bf96ba48763ba2.jpg",
+    "static/media/typescript-react-shopppingApp.png": "/william8421.github.io/static/media/typescript-react-shopppingApp.9c142c9f8639bd9961ed.png",
+    "static/media/nodejs.png": "/william8421.github.io/static/media/nodejs.8e4e6c2d64f7cf1c713a.png",
+    "static/media/css.png": "/william8421.github.io/static/media/css.e57d30c67278c4e867fb.png",
+    "static/media/react.png": "/william8421.github.io/static/media/react.b83438451ffa5c036357.png",
+    "static/media/es6.png": "/william8421.github.io/static/media/es6.a5e4be6553b154b2bab6.png",
+    "static/media/html.png": "/william8421.github.io/static/media/html.31aa9a0c06fb2633918d.png",
+    "static/media/javascript.png": "/william8421.github.io/static/media/javascript.e4eee92dea7e8d672897.png",
+    "static/media/mongodb.png": "/william8421.github.io/static/media/mongodb.140622dc73847448cac0.png",
+    "static/media/express.png": "/william8421.github.io/static/media/express.b0a18b6a39e9676a6657.png",
+    "static/media/empty-logo.png": "/william8421.github.io/static/media/empty-logo.8f8d3cd30336e563e3ba.png",
+    "static/media/GraphQLLogo1.png": "/william8421.github.io/static/media/GraphQLLogo1.4682f3ff229e4dc27088.png",
+    "index.html": "/william8421.github.io/index.html",
+    "main.a289db57.css.map": "/william8421.github.io/static/css/main.a289db57.css.map",
+    "main.84f0024c.js.map": "/william8421.github.io/static/js/main.84f0024c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a289db57.css",
+    "static/js/main.84f0024c.js"
+  ]
+}
