@@ -1,9 +1,9 @@
 import React from 'react'
 import project1 from '../images/MovieApp.jpg';
-import project2 from '../images/finalProject.png';
+import project2 from '../images/finalProject.jpg';
 import project3 from '../images/graphql-project.png';
 import project4 from '../images/typescript-react-shopppingApp.png';
-import project5 from '../images/project5.png'
+import project5 from '../images/project5home1.png'
 
 export default function Projects() {
   return (

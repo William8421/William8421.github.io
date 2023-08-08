@@ -4,22 +4,27 @@
         .img-container {
             width: 6%;
         }
+
         .pages {
             display: none;
         }
+
         .pages-desktop {
             display: flex;
             gap: 10%;
+
             .page-desktop {
                 text-decoration: none;
                 color: white;
             }
         }
+
         .social {
             width: 20%;
             display: flex;
             justify-content: space-around;
         }
+
         .bar-button {
             display: none;
         }
@@ -29,6 +34,7 @@
         .info {
             margin-left: 5%;
         }
+
         .sub-home {
             width: 100%;
             background-position: 100% -60px;
@@ -38,21 +44,8 @@
     }
 
     .about {
-        margin-top: 12rem;
-    }
-
-    .skills {
-        .carousel {
-            .logo {
-                width: 20%;
-                padding: 0;
-                margin: 5% 0;
-                margin-left: 40%;
-
-                img {
-                    width: 100%;
-                }
-            }
+        .skills {
+            padding-top: 1rem;
         }
     }
 
@@ -62,7 +55,7 @@
         gap: 2rem;
 
         .projects-container {
-            flex-wrap: wrap;            
+            flex-wrap: wrap;
         }
     }
 
@@ -106,35 +99,42 @@
     }
 
     .home {
-        padding-top: 15rem;
 
         .info {
             margin-top: 10%;
         }
 
         .sub-home {
-            background-position: 100% -20px;
-            background-size: 80%;
-            height: 50rem;
-            width: 105%;
+            height: 90vh;
+            width: 100%;
+            position: absolute;
+            top: 10%;
+            left: 0;
         }
     }
 
-    .skills {
-        .logo {
-            img {
-                width: 40%;
+    .about {
+        margin-top: 25rem;
+        max-width: 1000px;
+
+        .skills {
+            padding-top: 2rem;
+
+            .skill {
+                img {
+                    width: 80px;
+                }
             }
         }
     }
 
     .projects {
         .projects-container {
-            width: 100%;
             gap: 3rem;
             flex-direction: row;
             flex-wrap: wrap;
-            .project{
+
+            .project {
                 a {
                     img {
                         width: 250px;
@@ -149,15 +149,17 @@
                 a:hover .project-description {
                     visibility: visible;
                 }
-                .github-link{
+
+                .github-link {
                     margin-top: 2rem;
                 }
             }
-            
+
         }
     }
 
     .contact-container {
+
         form {
             width: 40%;
         }
@@ -177,8 +179,7 @@
     }
 
     .home {
-        padding-top: 0;
-
+        padding-top: 5rem;
 
         a {
             z-index: 10;
@@ -193,28 +194,11 @@
     }
 
     .about {
-        margin-top: 30rem;
-        padding-top: 5rem;
-        width: 50%;
-        margin-bottom: 5rem;
-
         .skills {
-            .carousel {
-                .logo {
-                    padding: 0;
+            .skill {
+                img {
+                    width: 150px;
                 }
-            }
-        }
-
-    }
-
-    .carousel {
-        .logo {
-            width: 70%;
-            margin-left: 15%;
-
-            img {
-                width: 10%;
             }
         }
     }
@@ -233,28 +217,16 @@
         padding-top: 13rem;
     }
 
-    .about {
-        .skills {
-            .carousel {
-                .logo {
-                    img{
-                        width: 40%;
-                    }
-                }
-            }
-        }
-
-    }
-
     .projects {
-        padding-top: 10rem;
+        padding-top: 6rem;
 
         .projects-container {
             padding-top: 5rem;
-            .project{
-            width: 30%;
-            display: flex;
-            justify-content: center;
+
+            .project {
+                width: 30%;
+                display: flex;
+                justify-content: center;
             }
         }
     }

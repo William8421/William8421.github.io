@@ -1,6 +1,28 @@
 .about {
+    padding: 1rem;
     padding-top: 5rem;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
+
+    h2 {
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        width: 100%;
+        padding-top: 2rem;
+        text-align: center;
+
+        .skill {
+            img {
+                width: 50px;
+            }
+        }
+    }
 }

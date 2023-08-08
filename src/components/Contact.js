@@ -18,7 +18,7 @@ export default function Contact() {
           placeholder="Email"
           name="Email"
         />
-        <label htmlFor="message">how can I help you?</label>
+        <label htmlFor="message">Message</label>
         <textarea
           className="field"
           required
