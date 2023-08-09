@@ -16,6 +16,7 @@
             .page-desktop {
                 text-decoration: none;
                 color: white;
+                padding: 25px 0;
             }
         }
 
@@ -90,6 +91,7 @@
             .page-desktop {
                 text-decoration: none;
                 color: white;
+                padding: 25px 0;
             }
         }
 
@@ -169,7 +171,7 @@
 @media(min-width: 800px) and (min-height: 332px) {
     .header {
         .img-container {
-            width: 4%;
+            width: 3%;
             margin-left: 0;
         }
 
@@ -194,13 +196,7 @@
     }
 
     .about {
-        .skills {
-            .skill {
-                img {
-                    width: 150px;
-                }
-            }
-        }
+        margin-top: 25rem;
     }
 
     .projects {
@@ -212,22 +208,19 @@
     }
 }
 
-@media(min-width: 800px) and (min-height: 851px) {
+@media(min-width: 1200px) and (min-height: 851px) {
     .home {
         padding-top: 13rem;
     }
 
+    .about{
+        margin-top: 30rem;        
+    }
+
     .projects {
-        padding-top: 6rem;
 
         .projects-container {
             padding-top: 5rem;
-
-            .project {
-                width: 30%;
-                display: flex;
-                justify-content: center;
-            }
         }
     }
 
