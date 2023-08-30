@@ -4,7 +4,7 @@ import { logos } from './Skills.js';
 export default function About() {
   const skills = logos.map((skill) => {
     return (
-        <div className="skill">
+        <div className="skill" key={skill.name}>
             <img src={skill.img} alt="logo" />
 
             <div>{skill.name}</div>
