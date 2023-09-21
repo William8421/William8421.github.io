@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1a34b613.css",
-    "main.js": "/static/js/main.402f090a.js",
+    "main.js": "/static/js/main.e4d6c769.js",
     "static/media/IMG_9752-removebg.png": "/static/media/IMG_9752-removebg.b02e395a54a783acdef2.png",
     "static/media/graphql-project.png": "/static/media/graphql-project.402fdc1fe3c96ee86305.png",
     "static/media/MovieApp.jpg": "/static/media/MovieApp.4b91b3bf96ba48763ba2.jpg",
@@ -23,10 +23,10 @@
     "static/media/GraphQLLogo.png": "/static/media/GraphQLLogo.4682f3ff229e4dc27088.png",
     "index.html": "/index.html",
     "main.1a34b613.css.map": "/static/css/main.1a34b613.css.map",
-    "main.402f090a.js.map": "/static/js/main.402f090a.js.map"
+    "main.e4d6c769.js.map": "/static/js/main.e4d6c769.js.map"
   },
   "entrypoints": [
     "static/css/main.1a34b613.css",
-    "static/js/main.402f090a.js"
+    "static/js/main.e4d6c769.js"
   ]
 }
