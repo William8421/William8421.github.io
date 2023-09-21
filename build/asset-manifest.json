@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1a34b613.css",
-    "main.js": "/static/js/main.e4d6c769.js",
+    "main.js": "/static/js/main.079fa918.js",
     "static/media/IMG_9752-removebg.png": "/static/media/IMG_9752-removebg.b02e395a54a783acdef2.png",
     "static/media/graphql-project.png": "/static/media/graphql-project.402fdc1fe3c96ee86305.png",
     "static/media/MovieApp.jpg": "/static/media/MovieApp.4b91b3bf96ba48763ba2.jpg",
@@ -15,7 +15,9 @@
     "static/media/html.png": "/static/media/html.9d2690df9c5f4610441d.png",
     "static/media/es6.png": "/static/media/es6.693ec74de771935176a9.png",
     "static/media/react.png": "/static/media/react.b83438451ffa5c036357.png",
+    "static/media/java.png": "/static/media/java.7a4b93c0458dd68d0d56.png",
     "static/media/mongodb.png": "/static/media/mongodb.140622dc73847448cac0.png",
+    "static/media/spring-boot.png": "/static/media/spring-boot.36ae448fcee52670215d.png",
     "static/media/express.png": "/static/media/express.b0a18b6a39e9676a6657.png",
     "static/media/jest.png": "/static/media/jest.517ac14907d9ec3afa50.png",
     "static/media/empty-logo.png": "/static/media/empty-logo.8f8d3cd30336e563e3ba.png",
@@ -23,10 +25,10 @@
     "static/media/GraphQLLogo.png": "/static/media/GraphQLLogo.4682f3ff229e4dc27088.png",
     "index.html": "/index.html",
     "main.1a34b613.css.map": "/static/css/main.1a34b613.css.map",
-    "main.e4d6c769.js.map": "/static/js/main.e4d6c769.js.map"
+    "main.079fa918.js.map": "/static/js/main.079fa918.js.map"
   },
   "entrypoints": [
     "static/css/main.1a34b613.css",
-    "static/js/main.e4d6c769.js"
+    "static/js/main.079fa918.js"
   ]
 }
