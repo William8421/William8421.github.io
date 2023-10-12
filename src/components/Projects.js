@@ -122,7 +122,7 @@ export default function Projects() {
         </div>
         <div className="project project-gif">
           <a
-            href="https://drive.google.com/file/d/1jnSK0Y3jvDyappS43CI07VuIP6IKd0M2/view"
+            href="https://drive.google.com/file/d/13W563F2vLFtceFDfxQUTImNmH5XsYN7x/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
