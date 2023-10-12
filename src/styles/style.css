@@ -205,13 +205,15 @@ body.light {
   }
 }
 .about {
+  padding: 1rem;
   padding-top: 5rem;
   width: 100%;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 .about h2 {
   padding-top: 2rem;
+  text-align: center;
 }
 .about .skills {
   display: flex;
@@ -220,11 +222,10 @@ body.light {
   gap: 2rem;
   width: 100%;
   padding-top: 2rem;
+  text-align: center;
 }
-.about .skills .logo img {
-  background-color: white;
+.about .skills .skill img {
   width: 50px;
-  border-radius: 6px;
 }
 
 .projects {
@@ -269,7 +270,7 @@ body.light {
 }
 .projects .projects-container .project a .project-description {
   width: 15rem;
-  height: 100px;
+  height: 80px;
   padding-top: 3%;
   margin: 0 auto;
   color: white;
@@ -283,6 +284,31 @@ body.light {
   border-radius: 6px;
   padding: 0.5rem;
   color: red;
+}
+.projects .projects-container .project-gif a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+}
+.projects .projects-container .project-gif a .gif-container {
+  width: 115px;
+  height: 250px;
+  margin: 10% 0;
+  background-color: transparent;
+  background-image: url("../images/recordingImg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+  border-radius: 2%;
+  -webkit-box-shadow: -10px 10px 15px -1px rgba(255, 255, 255, 0.83);
+  box-shadow: -10px 10px 15px -1px rgba(255, 255, 255, 0.83);
+}
+.projects .projects-container .project-gif a .gif-container:hover {
+  background-image: url("../images/recordingSpringBootApp.gif");
+  background-size: cover;
 }
 
 .contact-container {
@@ -336,6 +362,7 @@ body.light {
   .header .pages-desktop .page-desktop {
     text-decoration: none;
     color: white;
+    padding: 25px 0;
   }
   .header .social {
     width: 20%;
@@ -392,12 +419,10 @@ body.light {
   .header .pages-desktop .page-desktop {
     text-decoration: none;
     color: white;
+    padding: 25px 0;
   }
   .header .bar-button {
     display: none;
-  }
-  .home {
-    margin-bottom: 60%;
   }
   .home .info {
     margin-top: 10%;
@@ -410,16 +435,16 @@ body.light {
     left: 0;
   }
   .about {
-    max-width: 800px;
+    margin-top: 25rem;
+    max-width: 1000px;
   }
   .about .skills {
     padding-top: 2rem;
   }
-  .about .skills .logo img {
+  .about .skills .skill img {
     width: 80px;
   }
   .projects .projects-container {
-    width: 100%;
     gap: 3rem;
     flex-direction: row;
     flex-wrap: wrap;
@@ -443,7 +468,7 @@ body.light {
 }
 @media (min-width: 800px) and (min-height: 332px) {
   .header .img-container {
-    width: 4%;
+    width: 3%;
     margin-left: 0;
   }
   .header .social {
@@ -461,8 +486,8 @@ body.light {
     background-position: top right;
     background-size: contain;
   }
-  .about .skills .logo img {
-    width: 150px;
+  .about {
+    margin-top: 25rem;
   }
   .projects {
     margin-bottom: 10rem;
@@ -471,20 +496,15 @@ body.light {
     margin-bottom: 40rem;
   }
 }
-@media (min-width: 800px) and (min-height: 851px) {
+@media (min-width: 1200px) and (min-height: 851px) {
   .home {
     padding-top: 13rem;
   }
-  .projects {
-    padding-top: 6rem;
+  .about {
+    margin-top: 30rem;
   }
   .projects .projects-container {
     padding-top: 5rem;
-  }
-  .projects .projects-container .project {
-    width: 30%;
-    display: flex;
-    justify-content: center;
   }
 }
 

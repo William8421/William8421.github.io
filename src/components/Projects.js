@@ -4,7 +4,6 @@ import project2 from "../images/finalProject.jpg";
 import project3 from "../images/graphql-project.png";
 import project4 from "../images/typescript-react-shopppingApp.png";
 import project5 from "../images/project5home1.png";
-import project6 from "../images/recordingImg.png";
 
 export default function Projects() {
   return (
