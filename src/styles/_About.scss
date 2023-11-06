@@ -1,28 +1,28 @@
 .about {
-    padding: 1rem;
-    padding-top: 5rem;
+  padding: 1rem;
+  padding-top: 5rem;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+
+  h2 {
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
     width: 100%;
-    margin: 0 auto;
-    text-align: left;
+    padding-top: 2rem;
+    text-align: center;
 
-    h2 {
-        padding-top: 2rem;
-        text-align: center;
+    .skill {
+      img {
+        width: 50px;
+      }
     }
-
-    .skills {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 2rem;
-        width: 100%;
-        padding-top: 2rem;
-        text-align: center;
-
-        .skill {
-            img {
-                width: 50px;
-            }
-        }
-    }
+  }
 }
