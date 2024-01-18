@@ -4,6 +4,7 @@ import javascriptLogo from "../images/skills-logos/javascript.png";
 import reactLogo from "../images/skills-logos/react.png";
 import nodeJsLogo from "../images/skills-logos/nodejs.png";
 import expressLogo from "../images/skills-logos/express.png";
+import postgreSQLLogo from "../images/skills-logos/postgreSQL.png";
 import mongoDBLogo from "../images/skills-logos/mongodb.png";
 import ES6Logo from "../images/skills-logos/es6.png";
 import TypescriptLogo from "../images/skills-logos/ts-logo-512.png";
@@ -26,6 +27,7 @@ export const logos = [
   { img: expressLogo, name: "Express.js" },
   { img: mongoDBLogo, name: "MongoDB" },
   { img: ES6Logo, name: "ES6" },
+  { img: postgreSQLLogo, name: "PostgreSQL" },
   { img: javaLogo, name: "Java" },
   { img: springBootLogo, name: "Spring Boot" },
   { img: GraphQlLogo, name: "GraphQl" },

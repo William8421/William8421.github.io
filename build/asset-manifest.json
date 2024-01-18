@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e3a4af2a.css",
-    "main.js": "/static/js/main.f4d5fd0e.js",
+    "main.js": "/static/js/main.a99d695f.js",
     "static/media/recordingSpringBootApp.gif": "/static/media/recordingSpringBootApp.047a0a34f337bcd10884.gif",
     "static/media/IMG_9752-removebg.png": "/static/media/IMG_9752-removebg.b02e395a54a783acdef2.png",
     "static/media/graphql-project.png": "/static/media/graphql-project.402fdc1fe3c96ee86305.png",
@@ -23,14 +23,15 @@
     "static/media/express.png": "/static/media/express.b0a18b6a39e9676a6657.png",
     "static/media/jest.png": "/static/media/jest.517ac14907d9ec3afa50.png",
     "static/media/empty-logo.png": "/static/media/empty-logo.8f8d3cd30336e563e3ba.png",
+    "static/media/vue-logo.png": "/static/media/vue-logo.67c9d8a642943a155f98.png",
     "static/media/angularlogo.png": "/static/media/angularlogo.3f322f96e01772ecc380.png",
     "static/media/GraphQLLogo.png": "/static/media/GraphQLLogo.4682f3ff229e4dc27088.png",
     "index.html": "/index.html",
     "main.e3a4af2a.css.map": "/static/css/main.e3a4af2a.css.map",
-    "main.f4d5fd0e.js.map": "/static/js/main.f4d5fd0e.js.map"
+    "main.a99d695f.js.map": "/static/js/main.a99d695f.js.map"
   },
   "entrypoints": [
     "static/css/main.e3a4af2a.css",
-    "static/js/main.f4d5fd0e.js"
+    "static/js/main.a99d695f.js"
   ]
 }
