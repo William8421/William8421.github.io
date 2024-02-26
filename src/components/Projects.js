@@ -106,7 +106,7 @@ export default function Projects() {
             rel="noreferrer"
           >
             <img src={project6} alt="project" />
-            <div className="project-name">Recipe App</div>
+            <div className="project-name">VUE3 RECIPE APP</div>
             <p className="project-description">
               A Vue3/TypeScript app which leverages the power of Edamam's APIs
               to bring a seamless and efficient culinary experience.
