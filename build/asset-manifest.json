@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e3a4af2a.css",
-    "main.js": "/static/js/main.a99d695f.js",
+    "main.js": "/static/js/main.1a7f8fb0.js",
     "static/media/recordingSpringBootApp.gif": "/static/media/recordingSpringBootApp.047a0a34f337bcd10884.gif",
     "static/media/IMG_9752-removebg.png": "/static/media/IMG_9752-removebg.b02e395a54a783acdef2.png",
     "static/media/graphql-project.png": "/static/media/graphql-project.402fdc1fe3c96ee86305.png",
@@ -19,6 +19,7 @@
     "static/media/react.png": "/static/media/react.b83438451ffa5c036357.png",
     "static/media/java.png": "/static/media/java.7a4b93c0458dd68d0d56.png",
     "static/media/mongodb.png": "/static/media/mongodb.140622dc73847448cac0.png",
+    "static/media/postgreSQL.png": "/static/media/postgreSQL.c5978192fbce8a2640ca.png",
     "static/media/spring-boot.png": "/static/media/spring-boot.36ae448fcee52670215d.png",
     "static/media/express.png": "/static/media/express.b0a18b6a39e9676a6657.png",
     "static/media/jest.png": "/static/media/jest.517ac14907d9ec3afa50.png",
@@ -28,10 +29,10 @@
     "static/media/GraphQLLogo.png": "/static/media/GraphQLLogo.4682f3ff229e4dc27088.png",
     "index.html": "/index.html",
     "main.e3a4af2a.css.map": "/static/css/main.e3a4af2a.css.map",
-    "main.a99d695f.js.map": "/static/js/main.a99d695f.js.map"
+    "main.1a7f8fb0.js.map": "/static/js/main.1a7f8fb0.js.map"
   },
   "entrypoints": [
     "static/css/main.e3a4af2a.css",
-    "static/js/main.a99d695f.js"
+    "static/js/main.1a7f8fb0.js"
   ]
 }

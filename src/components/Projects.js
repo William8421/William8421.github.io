@@ -4,6 +4,7 @@ import project2 from "../images/finalProject.jpg";
 import project3 from "../images/graphql-project.png";
 import project4 from "../images/typescript-react-shopppingApp.png";
 import project5 from "../images/project5home1.png";
+import project6 from "../images/Recipe-App.png";
 
 export default function Projects() {
   return (
@@ -94,6 +95,28 @@ export default function Projects() {
             target="_blank"
             rel="noreferrer"
             href="https://github.com/William8421/angular-shoppingCart"
+          >
+            Github
+          </a>
+        </div>
+        <div className="project">
+          <a
+            href="https://vue-recipe-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={project6} alt="project" />
+            <div className="project-name">Recipe App</div>
+            <p className="project-description">
+              A Vue3/TypeScript app which leverages the power of Edamam's APIs
+              to bring a seamless and efficient culinary experience.
+            </p>
+          </a>
+          <a
+            className="github-link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/William8421/recipe-vue-app"
           >
             Github
           </a>
