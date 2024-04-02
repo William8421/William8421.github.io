@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f57f6bcc.css",
-    "main.js": "/static/js/main.462837c4.js",
+    "main.js": "/static/js/main.52e16a97.js",
     "static/media/recordingSpringBootApp.gif": "/static/media/recordingSpringBootApp.047a0a34f337bcd10884.gif",
     "static/media/IMG_9752-removebg.png": "/static/media/IMG_9752-removebg.b02e395a54a783acdef2.png",
     "static/media/graphql-project.png": "/static/media/graphql-project.402fdc1fe3c96ee86305.png",
@@ -30,10 +30,10 @@
     "static/media/GraphQLLogo.png": "/static/media/GraphQLLogo.4682f3ff229e4dc27088.png",
     "index.html": "/index.html",
     "main.f57f6bcc.css.map": "/static/css/main.f57f6bcc.css.map",
-    "main.462837c4.js.map": "/static/js/main.462837c4.js.map"
+    "main.52e16a97.js.map": "/static/js/main.52e16a97.js.map"
   },
   "entrypoints": [
     "static/css/main.f57f6bcc.css",
-    "static/js/main.462837c4.js"
+    "static/js/main.52e16a97.js"
   ]
 }

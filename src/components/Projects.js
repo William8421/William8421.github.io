@@ -1,12 +1,45 @@
 import React from "react";
+import { useState } from "react";
 import project1 from "../images/MovieApp.jpg";
 import project2 from "../images/finalProject.jpg";
-import project3 from "../images/graphql-project.png";
 import project4 from "../images/typescript-react-shopppingApp.png";
 import project5 from "../images/project5home1.png";
-import project6 from "../images/Recipe-App.png";
+import project6_recipe from "../images/project6_recipe.png";
+import project6_nutrition from "../images/project6_nutrition.png";
+import project6_database from "../images/project6_database.png";
+import project6_about from "../images/project6_about.png";
+import project7_tasks from "../images/project-7-tasks.png";
+import project7_home from "../images/project-7-home.png";
+import project7_profile from "../images/project-7-profile.png";
+import project7_about from "../images/project-7-about.png";
+import { useEffect } from "react";
 
 export default function Projects() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const taskManagerImages = [
+    project7_home,
+    project7_profile,
+    project7_tasks,
+    project7_about,
+  ];
+
+  const recipeAppImages = [
+    project6_recipe,
+    project6_nutrition,
+    project6_database,
+    project6_about,
+  ];
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentImageIndex(
+        (prevIndex) => (prevIndex + 1) % taskManagerImages.length
+      );
+    }, 2000);
+
+    return () => clearInterval(intervalId);
+  }, [taskManagerImages.length]);
+
   return (
     <div id="projects" className="projects">
       <h1>Personal Projects</h1>
@@ -105,7 +138,7 @@ export default function Projects() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={project6} alt="project" />
+            <img src={recipeAppImages[currentImageIndex]} alt="project" />
             <div className="project-name">VUE3 RECIPE APP</div>
             <p className="project-description">
               A Vue3/TypeScript app which leverages the power of Edamam's APIs
@@ -123,22 +156,23 @@ export default function Projects() {
         </div>
         <div className="project">
           <a
-            href="https://github.com/William8421/MusicBandsGraphQl"
+            href="http://ng-task-manager.s3-website.eu-central-1.amazonaws.com/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={project3} alt="project" />
-            <div className="project-name"> PLAYLIST APP </div>
+            <img src={taskManagerImages[currentImageIndex]} alt="project" />
+            <div className="project-name"> TASK MANAGER </div>
             <p className="project-description">
-              A fullstack app created with GraphQL-React to add songs and
-              singers/bands to the music playlist.
+              A fullstack application created with Node.js, Express, PostgreSQL,
+              and Angular, leveraging Docker for containerization. Hosted on
+              AWS.
             </p>
           </a>
           <a
             className="github-link"
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/William8421/MusicBandsGraphQl"
+            href="https://github.com/William8421/task_manager"
           >
             Github
           </a>
