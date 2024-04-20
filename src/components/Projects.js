@@ -1,10 +1,6 @@
 import React from "react";
 import project1 from "../images/MovieApp.jpg";
 import project2 from "../images/finalProject.jpg";
-import project4 from "../images/typescript-react-shopppingApp.png";
-import project5Gif from "../images/angular-shopping-cart.gif";
-import project6Gif from "../images/recipe-app.gif";
-import project7Gif from "../images/task-manager.gif";
 
 export default function Projects() {
   return (
@@ -63,10 +59,11 @@ export default function Projects() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={project4} alt="project" />
-            <div className="project-name">SHOPPING-CART APP</div>
+            <div className="no-image-container shopping-app"></div>
+            <div className="project-name">SHOPPING APP</div>
             <p className="project-description">
-              A fullstack e-commerce app created with typescript-react
+              A fullstack e-commerce app created with Node.js, Express,
+              Typescript and React
             </p>
           </a>
           <a
@@ -80,32 +77,11 @@ export default function Projects() {
         </div>
         <div className="project">
           <a
-            href="https://angular-shopping-cart-app.netlify.app/store"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={project5Gif} alt="project" />
-            <div className="project-name">Angular SHOPPING-CART APP</div>
-            <p className="project-description">
-              A Frontend e-commerce app created with Angular 14
-            </p>
-          </a>
-          <a
-            className="github-link"
-            target="_blank"
-            rel="noreferrer"
-            href="https://github.com/William8421/angular-shoppingCart"
-          >
-            Github
-          </a>
-        </div>
-        <div className="project">
-          <a
             href="https://vue-recipe-app.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={project6Gif} alt="project" />
+            <div className="no-image-container recipe-app"></div>
             <div className="project-name">VUE3 RECIPE APP</div>
             <p className="project-description">
               A Vue3/TypeScript app which leverages the power of Edamam's APIs
@@ -127,7 +103,7 @@ export default function Projects() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={project7Gif} alt="project" />
+            <div className="no-image-container task-manager"></div>
             <div className="project-name"> TASK MANAGER </div>
             <p className="project-description">
               A fullstack application created with Node.js, Express, PostgreSQL,
@@ -144,13 +120,13 @@ export default function Projects() {
             Github
           </a>
         </div>
-        <div className="project project-gif">
+        <div className="project">
           <a
             href="https://drive.google.com/file/d/13W563F2vLFtceFDfxQUTImNmH5XsYN7x/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
-            <div className="gif-container"></div>
+            <div className="no-image-container social-media-app"></div>
             <div className="project-name"> SPRING BOOT APP </div>
             <p className="project-description">
               A fullstack social media app created with spring boot-react, where
