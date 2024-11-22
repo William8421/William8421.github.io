@@ -1,39 +1,41 @@
 {
   "files": {
-    "main.css": "/static/css/main.f57f6bcc.css",
-    "main.js": "/static/js/main.c555948a.js",
+    "main.css": "/static/css/main.2bc3f8f0.css",
+    "main.js": "/static/js/main.f8041cff.js",
     "static/media/recordingSpringBootApp.gif": "/static/media/recordingSpringBootApp.047a0a34f337bcd10884.gif",
     "static/media/IMG_9752-removebg.png": "/static/media/IMG_9752-removebg.b02e395a54a783acdef2.png",
+    "static/media/recipe-app-home.png": "/static/media/recipe-app-home.a525153e32f8916d3066.png",
+    "static/media/typescript-shopping-cart.gif": "/static/media/typescript-shopping-cart.5f0eb579b3a2bcf765ca.gif",
+    "static/media/task-manager-home.png": "/static/media/task-manager-home.335d58cc7d313cf58600.png",
     "static/media/MovieApp.jpg": "/static/media/MovieApp.4b91b3bf96ba48763ba2.jpg",
     "static/media/background-body.jpg": "/static/media/background-body.26d015a1007111f913ca.jpg",
     "static/media/recipe-app.gif": "/static/media/recipe-app.cda09e0a2b29ec7df5ef.gif",
     "static/media/recordingImg.png": "/static/media/recordingImg.19a209736a2544812987.png",
-    "static/media/angular-shopping-cart.gif": "/static/media/angular-shopping-cart.40194e123d689be0fac9.gif",
-    "static/media/typescript-react-shopppingApp.png": "/static/media/typescript-react-shopppingApp.9c142c9f8639bd9961ed.png",
     "static/media/task-manager.gif": "/static/media/task-manager.d957bc3643d3bc465931.gif",
+    "static/media/shopping-cart-store.png": "/static/media/shopping-cart-store.b608450c3a177dcddbf9.png",
     "static/media/finalProject.jpg": "/static/media/finalProject.85ae6c694b70b5138e27.jpg",
     "static/media/javascript.png": "/static/media/javascript.e870d0db6702dd2b656c.png",
     "static/media/css.png": "/static/media/css.4b8ca7ec61ddb36caa26.png",
     "static/media/nodejs.png": "/static/media/nodejs.89bb009ab0058171aa34.png",
+    "static/media/docker.png": "/static/media/docker.f1c7b59f09b730bebc4e.png",
     "static/media/html.png": "/static/media/html.9d2690df9c5f4610441d.png",
-    "static/media/es6.png": "/static/media/es6.693ec74de771935176a9.png",
     "static/media/react.png": "/static/media/react.b83438451ffa5c036357.png",
     "static/media/java.png": "/static/media/java.7a4b93c0458dd68d0d56.png",
+    "static/media/AWS.png": "/static/media/AWS.9b24e245a6f7ff3a123b.png",
     "static/media/mongodb.png": "/static/media/mongodb.140622dc73847448cac0.png",
     "static/media/postgreSQL.png": "/static/media/postgreSQL.c5978192fbce8a2640ca.png",
     "static/media/spring-boot.png": "/static/media/spring-boot.36ae448fcee52670215d.png",
-    "static/media/express.png": "/static/media/express.b0a18b6a39e9676a6657.png",
     "static/media/jest.png": "/static/media/jest.517ac14907d9ec3afa50.png",
     "static/media/empty-logo.png": "/static/media/empty-logo.8f8d3cd30336e563e3ba.png",
     "static/media/vue-logo.png": "/static/media/vue-logo.67c9d8a642943a155f98.png",
-    "static/media/angularlogo.png": "/static/media/angularlogo.3f322f96e01772ecc380.png",
+    "static/media/angular.png": "/static/media/angular.3f322f96e01772ecc380.png",
     "static/media/GraphQLLogo.png": "/static/media/GraphQLLogo.4682f3ff229e4dc27088.png",
     "index.html": "/index.html",
-    "main.f57f6bcc.css.map": "/static/css/main.f57f6bcc.css.map",
-    "main.c555948a.js.map": "/static/js/main.c555948a.js.map"
+    "main.2bc3f8f0.css.map": "/static/css/main.2bc3f8f0.css.map",
+    "main.f8041cff.js.map": "/static/js/main.f8041cff.js.map"
   },
   "entrypoints": [
-    "static/css/main.f57f6bcc.css",
-    "static/js/main.c555948a.js"
+    "static/css/main.2bc3f8f0.css",
+    "static/js/main.f8041cff.js"
   ]
 }
