@@ -99,7 +99,7 @@ export default function Projects() {
         </div>
         <div className="project">
           <a
-            href="http://ng-task-manager.s3-website.eu-central-1.amazonaws.com/"
+            href="https://wm-task-manager.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -107,8 +107,7 @@ export default function Projects() {
             <div className="project-name"> TASK MANAGER </div>
             <p className="project-description">
               A fullstack application created with Node.js, Express, PostgreSQL,
-              and Angular, leveraging Docker for containerization. Hosted on
-              AWS.
+              and Angular, leveraging Docker for containerization.
             </p>
           </a>
           <a
